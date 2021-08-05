@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.externalPage {
+
+}
+
+.externalPage header {
+	background-color: #ccc;
+}
+
+.externalPage footer {
+	background-color: #eee;
+}
