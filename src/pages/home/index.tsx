@@ -1,6 +1,11 @@
+import PaginaComponent, { SecaoEnum } from "../../components/pagina-component"
+
 const Home = () => {
 	return (
-		<h1>Home</h1>
+		<PaginaComponent secao={SecaoEnum.Home} titulo="Home">
+			<h2>Bem-vindo!</h2>
+			<p>Teste.</p>
+		</PaginaComponent>
 	)
 }
 
