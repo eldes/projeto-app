@@ -1,4 +1,4 @@
-import { FunctionComponent, ReactNodeArray } from "react"
+import { FunctionComponent, ReactNode } from "react"
 import { Link } from "react-router-dom"
 
 export enum SecaoEnum {
@@ -9,7 +9,7 @@ export enum SecaoEnum {
 type Props = {
 	secao: SecaoEnum
 	titulo: string
-	children?: ReactNodeArray
+	children?: ReactNode
 }
 
 const PaginaComponent: FunctionComponent<Props> = ({ secao, titulo, children }) => {
